@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="urn:hl7-org:v3">
+  <setId root="00000000-0000-0000-0000-000000000001"/>
+  <versionNumber value="3"/>
+  <effectiveTime value="20260923"/>
+  <title>EXAMPLESTATIN <content>tablets</content></title>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+          <title>2 DOSAGE AND ADMINISTRATION</title>
+          <text><paragraph>Take with or without food.</paragraph></text>
+          <component>
+            <section>
+              <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+              <title>2.2 Recommended Dosage in Adult Patients</title>
+              <text>
+                <paragraph>The dosage range is 5 mg to 40 mg orally once daily.</paragraph>
+                <table><tbody><tr><td>Starting dose</td><td>10 mg</td></tr></tbody></table>
+              </text>
+            </section>
+          </component>
+        </section>
+      </component>
+      <component>
+        <section>
+          <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+          <title>12 CLINICAL PHARMACOLOGY</title>
+          <text/>
+          <component>
+            <section>
+              <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+              <title>12.5 Pharmacogenomics</title>
+              <text><paragraph>Exposure is increased in SLCO1B1 poor function patients.</paragraph></text>
+            </section>
+          </component>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

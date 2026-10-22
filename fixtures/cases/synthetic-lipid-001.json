@@ -1,0 +1,37 @@
+{
+  "patient": {
+    "patient_id": "synthetic-lipid-001",
+    "sex": "male",
+    "birth_date": "1974-03-12",
+    "goals": ["protect my heart long term", "more energy"],
+    "observations": [
+      {"loinc": "1884-6", "display": "Apolipoprotein B", "value": {"value": 128, "unit": "mg/dL"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "13457-7", "display": "LDL cholesterol (calculated)", "value": {"value": 162, "unit": "mg/dL"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "2093-3", "display": "Total cholesterol", "value": {"value": 240, "unit": "mg/dL"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "2085-9", "display": "HDL cholesterol", "value": {"value": 45, "unit": "mg/dL"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "2571-8", "display": "Triglycerides", "value": {"value": 165, "unit": "mg/dL"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "43583-4", "display": "Lipoprotein(a)", "value": {"value": 180, "unit": "nmol/L"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "1742-6", "display": "ALT", "value": {"value": 28, "unit": "U/L"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "2157-6", "display": "Creatine kinase", "value": {"value": 140, "unit": "U/L"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "2160-0", "display": "Creatinine", "value": {"value": 1.0, "unit": "mg/dL"}, "effective": "2026-10-01T08:10:00", "fasting": true},
+      {"loinc": "4548-4", "display": "Hemoglobin A1c", "value": {"value": 5.6, "unit": "%"}, "effective": "2026-10-01T08:10:00", "fasting": true}
+    ],
+    "medications": [
+      {"name": "lisinopril", "dose": {"value": 10, "unit": "mg"}, "route": "oral", "frequency": "once daily", "start": "2022-05-01"}
+    ],
+    "conditions": [
+      {"name": "Essential hypertension", "code": "I10"},
+      {"name": "Statin-associated muscle symptoms", "active": false, "note": "Myalgia on simvastatin 40 mg in 2021; resolved after stopping"}
+    ],
+    "allergies": [],
+    "pgx": [
+      {"gene": "SLCO1B1", "diplotype": "*5/*15", "phenotype": "Poor Function", "tier": "A", "callers": ["PharmCAT"], "guideline_version": "CPIC SLCO1B1-statins 2022"}
+    ]
+  },
+  "problems": [
+    {"problem_id": "P1", "description": "Elevated ApoB with elevated Lp(a)", "supporting_loincs": ["1884-6", "43583-4"], "confirmed_by": "synthetic-fixture"}
+  ],
+  "targets": [
+    {"target_id": "T1", "problem_id": "P1", "loinc": "1884-6", "display": "Apolipoprotein B", "direction": "lower", "high": {"value": 80, "unit": "mg/dL"}, "confirmed_by": "synthetic-fixture"}
+  ]
+}
