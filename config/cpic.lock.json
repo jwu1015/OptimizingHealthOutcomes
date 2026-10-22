@@ -1,0 +1,9 @@
+{
+  "lipids": {
+    "guidelines": {
+      "SLCO1B1, ABCG2, CYP2C9, and Statins": 72
+    },
+    "recommendations": 51,
+    "sha256": "d761417c27daa9266b9c7c3412f99a4cb6e10050149d1ef2af8500c9b0ef90ec"
+  }
+}

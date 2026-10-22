@@ -1,0 +1,161 @@
+{
+  "panel": "lipids",
+  "drugs": {
+    "rosuvastatin": {
+      "name": "rosuvastatin",
+      "rxcui": "301542",
+      "guideline_id": 100426
+    },
+    "simvastatin": {
+      "name": "simvastatin",
+      "rxcui": "36567",
+      "guideline_id": 100426
+    }
+  },
+  "not_in_cpic": [
+    "ezetimibe"
+  ],
+  "guidelines": {
+    "100426": {
+      "id": 100426,
+      "name": "SLCO1B1, ABCG2, CYP2C9, and Statins",
+      "url": "https://www.clinpgx.org/guideline/PA166264281",
+      "version": 72,
+      "genes": [
+        "SLCO1B1",
+        "ABCG2",
+        "CYP2C9"
+      ],
+      "lookup_methods": {
+        "ABCG2": "PHENOTYPE",
+        "SLCO1B1": "PHENOTYPE",
+        "CYP2C9": "ACTIVITY_SCORE"
+      }
+    }
+  },
+  "recommendations": [
+    {
+      "id": 8481358,
+      "guideline_id": 100426,
+      "drug": "rosuvastatin",
+      "lookup": {
+        "ABCG2": "Normal Function",
+        "SLCO1B1": "Poor Function"
+      },
+      "phenotypes": {
+        "ABCG2": "Normal Function",
+        "SLCO1B1": "Poor Function"
+      },
+      "implications": {
+        "ABCG2": "Typical myopathy risk and rosuvastatin exposure",
+        "SLCO1B1": "Increased rosuvastatin exposure as compared to normal function and decreased function; Typical myopathy risk with doses ≤20 mg."
+      },
+      "text": "Prescribe ≤20mg as a starting dose and adjust doses of rosuvastatin based on disease-specific and specific population guidelines. If dose > 20mg needed for desired efficacy, consider combination therapy (i.e., rosuvastatin plus non-statin guideline directed medical therapy) (PMID: 30423391).",
+      "classification": "Moderate",
+      "comments": "The potential for drug-drug interactions and dose limits based on renal and hepatic function and Asian ancestry should be evaluated prior to initiating a statin. The effects of drug-drug interactions may be more pronounced resulting in a higher risk of myopathy.",
+      "population": "general",
+      "version": 1
+    },
+    {
+      "id": 8481379,
+      "guideline_id": 100426,
+      "drug": "rosuvastatin",
+      "lookup": {
+        "ABCG2": "No Result",
+        "SLCO1B1": "Normal Function"
+      },
+      "phenotypes": {
+        "ABCG2": "No Result",
+        "SLCO1B1": "Normal Function"
+      },
+      "implications": {
+        "ABCG2": "n/a",
+        "SLCO1B1": "Typical myopathy risk and statin exposure"
+      },
+      "text": "Based on SLCO1B1 status, prescribe desired starting dose and adjust doses based on disease-specific guidelines. ABCG2 genotype result is not available.",
+      "classification": "Strong",
+      "comments": "The potential for drug-drug interactions and dose limits based on renal and hepatic function and ancestry should be evaluated prior to initiating a statin.",
+      "population": "general",
+      "version": 1
+    },
+    {
+      "id": 8481380,
+      "guideline_id": 100426,
+      "drug": "rosuvastatin",
+      "lookup": {
+        "ABCG2": "No Result",
+        "SLCO1B1": "Poor Function"
+      },
+      "phenotypes": {
+        "ABCG2": "No Result",
+        "SLCO1B1": "Poor Function"
+      },
+      "implications": {
+        "ABCG2": "n/a",
+        "SLCO1B1": "Increased rosuvastatin exposure as compared to normal function and decreased function; Typical myopathy risk with doses ≤20 mg."
+      },
+      "text": "Based on SLCO1B1 status, prescribe ≤20mg as a starting dose and adjust doses of rosuvastatin based on disease-specific and specific population guidelines If dose >20mg needed for desired efficacy, consider combination therapy (i.e. rosuvastatin plus non-statin guideline directed medical therapy) (PMID: 30423391). ABCG2 genotype result is not available.",
+      "classification": "Moderate",
+      "comments": "The potential for drug-drug interactions and dose limits based on renal and hepatic function and Asian ancestry should be evaluated prior to initiating a statin. The effects of drug-drug interactions may be more pronounced resulting in a higher risk of myopathy.",
+      "population": "general",
+      "version": 1
+    },
+    {
+      "id": 8481445,
+      "guideline_id": 100426,
+      "drug": "simvastatin",
+      "lookup": {
+        "SLCO1B1": "Normal Function"
+      },
+      "phenotypes": {
+        "SLCO1B1": "Normal Function"
+      },
+      "implications": {
+        "SLCO1B1": "Typical myopathy risk and statin exposure"
+      },
+      "text": "Prescribe desired starting dose and adjust doses based on disease-specific guidelines.",
+      "classification": "Strong",
+      "comments": "The potential for drug-drug interactions and dose limits based on renal and hepatic function and ancestry should be evaluated prior to initiating a statin.",
+      "population": "general",
+      "version": 1
+    },
+    {
+      "id": 8481446,
+      "guideline_id": 100426,
+      "drug": "simvastatin",
+      "lookup": {
+        "SLCO1B1": "Possible Decreased Function"
+      },
+      "phenotypes": {
+        "SLCO1B1": "Possible Decreased Function"
+      },
+      "implications": {
+        "SLCO1B1": "Increased simvastatin acid exposure as compared to normal function; increased risk of myopathy"
+      },
+      "text": "Prescribe an alternative statin depending on the desired potency (see Figure 1 of PMID: 35152405 for recommendations for alternative statins). If simvastatin therapy is warranted, limit dose to <20mg/day.",
+      "classification": "Strong",
+      "comments": "The potential for drug-drug interactions and dose limits based on renal and hepatic function should be evaluated prior to initiating a statin. The effects of drug-drug interactions may be more pronounced resulting in a higher risk of myopathy.",
+      "population": "general",
+      "version": 1
+    },
+    {
+      "id": 8481448,
+      "guideline_id": 100426,
+      "drug": "simvastatin",
+      "lookup": {
+        "SLCO1B1": "Poor Function"
+      },
+      "phenotypes": {
+        "SLCO1B1": "Poor Function"
+      },
+      "implications": {
+        "SLCO1B1": "Increased simvastatin acid exposure compared to normal and decreased function; highly increased myopathy risk"
+      },
+      "text": "Prescribe an alternative statin depending on the desired potency (see Figure 1 of PMID: 35152405 for recommendations for alternative statins).",
+      "classification": "Strong",
+      "comments": "The potential for drug-drug interactions and dose limits based on renal and hepatic function should be evaluated prior to initiating a statin. The effects of drug-drug interactions may be more pronounced resulting in a higher risk of myopathy.",
+      "population": "general",
+      "version": 1
+    }
+  ]
+}
