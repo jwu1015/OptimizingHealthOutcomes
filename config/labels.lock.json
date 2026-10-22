@@ -1,0 +1,79 @@
+{
+  "alirocumab": {
+    "effective_date": "2026-07-16",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "7bcfbac2-e8ac-4569-8edc-bcde3b1fd172",
+    "sha256": "dfca0fba0f4e9e5127745dce762b0333e70627049f51106d0156c101cff70898",
+    "version": 10
+  },
+  "atorvastatin": {
+    "effective_date": "2024-04-15",
+    "fetched_at": "2026-10-22T20:51:33+00:00",
+    "setid": "a60cc18b-0631-4cf0-b021-9f52224ece65",
+    "sha256": "c6748f079a3cf15a3d9fe19dde9012fb62746cd68ea8e21506daab8d6f2a32fd",
+    "version": 8
+  },
+  "bempedoic-acid": {
+    "effective_date": "2026-06-25",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "sha256": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "version": 20
+  },
+  "evolocumab": {
+    "effective_date": "2026-08-19",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+    "sha256": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+    "version": 32
+  },
+  "ezetimibe": {
+    "effective_date": "2025-11-25",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "174e45e0-45bb-48b7-9e60-8f6cfc1d22bb",
+    "sha256": "d5b669730abf9c2a7f09443a44fc58443ef5170998727029c7f872b5270942b5",
+    "version": 8
+  },
+  "icosapent-ethyl": {
+    "effective_date": "2026-03-23",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "9c1a2828-1583-4414-ab22-a60480e8e508",
+    "sha256": "eeb7feda034cef87be5cd8579b63b161eeb2eb8cab7c2e844283fa4efcc517dd",
+    "version": 21
+  },
+  "inclisiran": {
+    "effective_date": "2026-08-19",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "sha256": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "version": 13
+  },
+  "pitavastatin": {
+    "effective_date": "2026-03-31",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "44dcbf97-99ec-427c-ba50-207e0069d6d2",
+    "sha256": "62d763d66d086f4f23a3a88b5ac232f98416662c1d42699ab08dc82e9e50c12e",
+    "version": 12
+  },
+  "pravastatin": {
+    "effective_date": "2026-09-17",
+    "fetched_at": "2026-10-22T20:51:34+00:00",
+    "setid": "1d5bce9c-a788-4c52-a69e-c53174b8d061",
+    "sha256": "cde0446cdc634825dc40d335c68050844140abe810669832f5bb6ca74d75df22",
+    "version": 16
+  },
+  "rosuvastatin": {
+    "effective_date": "2026-09-23",
+    "fetched_at": "2026-10-22T20:51:33+00:00",
+    "setid": "325a5d0e-9a72-4015-9fcd-1655fb504cee",
+    "sha256": "e75f5dc494cd73a5bc11251d2a75d8506ed4ed688ad566016b954ded4d89f35b",
+    "version": 19
+  },
+  "simvastatin": {
+    "effective_date": "2025-03-28",
+    "fetched_at": "2026-10-22T20:51:33+00:00",
+    "setid": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9",
+    "sha256": "20a97640ddc74981ca41f3c0696d8a23ca3f3473236801fcc31b43825413bedb",
+    "version": 11
+  }
+}

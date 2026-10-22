@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Downloaded and derived data; regenerate from config/ with `precision ingest-labels`
+data/

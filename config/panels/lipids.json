@@ -1,0 +1,16 @@
+{
+  "panel": "lipids",
+  "drugs": [
+    {"slug": "rosuvastatin", "ingredient": "rosuvastatin", "brand": "Crestor", "labeler": "AstraZeneca", "setid": "325a5d0e-9a72-4015-9fcd-1655fb504cee"},
+    {"slug": "atorvastatin", "ingredient": "atorvastatin", "brand": "Lipitor", "labeler": "Viatris Specialty", "setid": "a60cc18b-0631-4cf0-b021-9f52224ece65"},
+    {"slug": "simvastatin", "ingredient": "simvastatin", "brand": "Zocor", "labeler": "Organon", "setid": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9"},
+    {"slug": "pravastatin", "ingredient": "pravastatin", "brand": null, "labeler": "Major Pharmaceuticals", "setid": "1d5bce9c-a788-4c52-a69e-c53174b8d061"},
+    {"slug": "pitavastatin", "ingredient": "pitavastatin", "brand": "Livalo", "labeler": "Kowa", "setid": "44dcbf97-99ec-427c-ba50-207e0069d6d2"},
+    {"slug": "ezetimibe", "ingredient": "ezetimibe", "brand": "Zetia", "labeler": "Organon", "setid": "174e45e0-45bb-48b7-9e60-8f6cfc1d22bb"},
+    {"slug": "bempedoic-acid", "ingredient": "bempedoic acid", "brand": "Nexletol", "labeler": "Esperion", "setid": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9"},
+    {"slug": "evolocumab", "ingredient": "evolocumab", "brand": "Repatha", "labeler": "Amgen", "setid": "cd61e902-166d-4aa6-9f3c-a18c1008d07e"},
+    {"slug": "alirocumab", "ingredient": "alirocumab", "brand": "Praluent", "labeler": "Regeneron", "setid": "7bcfbac2-e8ac-4569-8edc-bcde3b1fd172"},
+    {"slug": "inclisiran", "ingredient": "inclisiran", "brand": "Leqvio", "labeler": "Novartis", "setid": "6fc0afca-4513-4c35-b594-6544aee29a44"},
+    {"slug": "icosapent-ethyl", "ingredient": "icosapent ethyl", "brand": "Vascepa", "labeler": "Amarin", "setid": "9c1a2828-1583-4414-ab22-a60480e8e508"}
+  ]
+}
