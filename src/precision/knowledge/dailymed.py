@@ -17,6 +17,7 @@ from pathlib import Path
 
 import httpx
 
+from precision.knowledge.panels import load_panel
 from precision.schemas.common import Model
 
 API = "https://dailymed.nlm.nih.gov/dailymed/services/v2"
@@ -124,22 +125,9 @@ def fetch_spl(setid: str, client: httpx.Client) -> bytes:
     return response.content
 
 
-class PinnedDrug(Model):
-    slug: str
-    ingredient: str
-    brand: str | None = None
-    labeler: str
-    setid: str
-
-
-class DrugPanel(Model):
-    panel: str
-    drugs: list[PinnedDrug]
-
-
 def ingest_panel(config_path: Path, data_dir: Path, lock_path: Path) -> list[str]:
     """Fetch and parse every pinned label in a panel. Returns human-readable change notes."""
-    panel = DrugPanel.model_validate_json(config_path.read_text())
+    panel = load_panel(config_path)
     lock = json.loads(lock_path.read_text()) if lock_path.exists() else {}
     raw_dir = data_dir / "raw" / "dailymed"
     label_dir = data_dir / "labels"
